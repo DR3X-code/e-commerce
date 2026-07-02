@@ -1,0 +1,27 @@
+# Build directories
+target/
+build/
+out/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE - IntelliJ IDEA
+.idea/
+.idea/
+*.iws
+*.iml
+*.ipr
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local Maven repository
+.m2/
+
+# Project files
+HELP.md

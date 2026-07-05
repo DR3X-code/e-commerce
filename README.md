@@ -13,11 +13,16 @@ Este é um projeto de uma plataforma de e-commerce com API REST para gerenciar p
 - **Build Tool**: Maven
 - **Database**: PostgreSQL
 - **Bibliotecas**:
-  - Spring Boot Starter Web (MVC)
-  - Spring Boot Starter Validation
-  - Spring Boot Actuator
-  - Lombok (redução de boilerplate)
-  - Spring Boot DevTools (desenvolvimento)
+  - Spring Boot Starter Web (spring-boot-starter-webmvc)
+  - Spring Boot Starter Validation (spring-boot-starter-validation)
+  - Spring Boot Starter Actuator (spring-boot-starter-actuator)
+  - Spring Boot Starter Data JPA (spring-boot-starter-data-jpa)
+  - MapStruct (org.mapstruct:mapstruct) — versão 1.6.3
+  - SpringDoc OpenAPI (org.springdoc:springdoc-openapi-starter-webmvc-ui) — versão 2.6.0
+  - PostgreSQL JDBC Driver (org.postgresql:postgresql)
+  - Lombok (org.projectlombok:lombok) — optional
+  - Spring Boot DevTools (spring-boot-devtools) — runtime, optional
+  - Dependências de teste: spring-boot-starter-actuator-test, spring-boot-starter-data-jpa-test, spring-boot-starter-validation-test, spring-boot-starter-webmvc-test
 
 ## 📦 Pré-requisitos
 

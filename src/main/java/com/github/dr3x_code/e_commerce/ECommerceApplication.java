@@ -11,5 +11,6 @@ public class ECommerceApplication {
 	}
 
 }
-//Criar read me e subir git
-//proxima aula configurar post gres,importar mapperStruct ,importar swagger
+
+
+

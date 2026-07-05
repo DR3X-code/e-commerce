@@ -1,3 +1,44 @@
 spring:
   application:
     name: e-commerce
+#configurações de banco de dados
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+#Configurações do JPA
+jpa:
+  hibernate:
+    ddl-auto: update # create | create-drop | update | validate | none
+  show-sql: true
+  properties:
+    hibernate:
+      format_sql: true
+#Log de SQL
+sql:
+  init:
+    mode: never # always se quiser executar schema.sql/data.sql
+
+#log de erro
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE
+
+#portas do servidor
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always

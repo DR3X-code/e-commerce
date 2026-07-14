@@ -6,23 +6,16 @@ import com.github.dr3x_code.e_commerce.dto.telefone.TelefoneResponse;
 import com.github.dr3x_code.e_commerce.enums.GeneroEnum;
 
 import java.time.Instant;
+import java.time.LocalDate;
 import java.util.List;
 
 //recebe valor somente uma vez
-public record ClienteResponse(
+public record ClienteCriacaoResponse(
         Long id,
-        String nome,
-        String email,
-        String cpf,
-        Instant dataNascimento,
-        List<EnderecoResponse> enderecos,
-        List<TelefoneResponse> telefones,
-        List<CartaoResponse> cartoes,
-        GeneroEnum genero
-
+        String nome
         )
 { }
-//todo lição de casa implementar telefone e cartoes, inserir enum, e pensar mais regras possiveis Pensando no CRUD
+//lição de casa implementar telefone e cartoes, inserir enum, e pensar mais regras possiveis Pensando no CRUD
 
 //Ao Deletar vai se por id nao vai ter retorno
 //update

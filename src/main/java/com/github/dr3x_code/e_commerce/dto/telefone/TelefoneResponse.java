@@ -4,7 +4,7 @@ import com.github.dr3x_code.e_commerce.enums.TipoTelefoneEnum;
 
 public record TelefoneResponse(
         Long id,
-        String nomeTelefone,
+        String tituloTelefone,
         Integer ddd,
         String telefone,
         TipoTelefoneEnum tipoTelefone

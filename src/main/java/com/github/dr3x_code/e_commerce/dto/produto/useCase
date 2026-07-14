@@ -1,0 +1,8 @@
+/*
+Produto sem compra ou pedido pode ser EXCLUIDO
+Produto sem compra ou pedido não exclui, só desativa
+Produto dentro de categoria não exclui, só desativa
+Produto sem compra ou pedido
+    SIM = não exclui, apenas desativa.
+    NÃO = pode excluir.
+*/

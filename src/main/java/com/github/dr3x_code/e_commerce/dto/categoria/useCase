@@ -1,0 +1,8 @@
+/*
+regras:
+    Criar com nome obrigatório
+    Impedir nome duplicado
+    Permitir alterar nome
+    Não excluir se tiver produto vinculado porem é possivel desativar
+    Permitir desativar categoria
+*/

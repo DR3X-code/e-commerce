@@ -48,6 +48,7 @@ public class ClienteController {
         return ResponseEntity.noContent().build();
     }
 }
+//controller tem como função receber dados e repassar
 
 //todo:Da proxima aula: atualizar para comecar a retorna valor
 //      Revisar codigos http de respostas
